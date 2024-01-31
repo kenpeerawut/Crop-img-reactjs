@@ -113,10 +113,15 @@ const Crop = () => {
                 ref = {previewCanvasRef}
                 className='mt-4'
                 style={{
+                    // border: '1px solid black',
+                    // objectFit: 'contain',
+                    // width: 150,
+                    // height: 150,
                     border: '1px solid black',
-                    objectFit: 'contain',
-                    width: 150,
                     height: 150,
+                    width: 150,
+                    borderRadius : '50%',
+                    
                 }}
             />
 
